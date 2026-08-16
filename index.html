@@ -5,16 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <style>
-.sqdiv {height: 100px ; width: 100px ; background-color: cadetblue; text-align: center;}
+.bludiv {background-color: cadetblue; align-self: center; padding: "5%"; }
+.cordiv {background-color:lightcoral; align-self: center; padding: "5%"; }
+.tomdiv {background-color:tomato; align-self: center; padding: "5%"; }
+h1 {text-align: center; font-family: 'Courier New', Courier, monospace;}
+h2 {text-align: left; font-family: 'Courier New', Courier, monospace;}
+p {font-family: Arial, Helvetica, sans-serif;}
+.menu {width: "90%" ; font-family: 'Times New Roman', Times, serif;}
+header {align-content: center; padding: "5px" ; font-family: 'Times New Roman', Times, serif; font-size: larger;}
+body {background-color: bisque;}
   </style>
     <title>
         Starsite
     </title>
 </head>
 <body>
-<h1> Welcome to my website! </h1>
-<div> 
-    <p> T</p>
+
+<header> 
+  <table class="menu">
+<tr> 
+  <td><a href="#homepage"> Home     -</a></td>
+<td><a href="#about"> About Me     -</a></td>
+<td><a href="#chess"> Chess     -</a></td>
+<td><a href="#contact"> Contact     -</a></td>
+</tr>
+  </table>
+
+</header>
+<section id="homepage"> 
+<div class="bludiv"> 
+    <h1> Hi, I'm rgbhsl! </h1>
+      <p> I'm an amateur programmer from Pakistan. I'm pretty inexperienced, but I hope to learn more and more. 
+      I know HTML and CSS somewhat well (no Javascript yet, sadly), and I'm learning Python, SQL and LaTeX. I like Computer Science, and I really want to learn more advanced languages in the future. My goal is to learn C or C++. </p>
 </div>
+</section>
+<section id="about">
+  <div class="tomdiv"> 
+  <h1> About Me </h1>
+  <h2> Languages: UR (native), EN (C1), DE (A2) </h2>
+  <p> I natively speak Urdu and grew up learning English. I know a small amount of German. I am also trying to learn more languages, such as Russian. I've learnt how to read Cyrillic, however, I still have a very limited vocabulary.</p>
+  <h2> Subjects: Maths, Physics, Computer Science, Sociology </h2>
+  <p> I am highly interested in maths and physics, and I love learning new concepts! I took Computer Science out of necessity, but I find myself enjoying it more as I learn. Sociology is not one of my main subjects. I took it because I've studied it before, but WOW is there a lot of writing. </p>
+    <h2> Hobbies: chess, art, research </h2>
+  <p> I like both digital and traditional art! I like to draw freehand with pens; it's good just to doodle or make a more detailed quick sketch.  </p>
+  </div>
+</section>
+<section id="chess"> 
+<div class="cordiv"> 
+    <h1> I love chess! </h1>
+      <p> I love playing and learning about chess. I'm not that good yet, but I want to get better. </p>
+      <h2> My favorite opening: Vienna Gambit </h2>
+      <p> I learnt this online, and it's been my favorite opening since. I also really like the Italian Game. </p>
+      <h2> My favorite variant: Antichess </h2>
+      <p> It's fun to blunder your pieces intentionally. </p>
+      <h2> My favorite chess piece: Knight </h2>
+      <p> I like the others as well but the Knight is more fun because it can jump over pieces. </p>
+      <h2> My favorite time control: Anything without increment, since it makes the game too long. </h2>
+      <p> I play online and in local tournaments sometimes. My online Elo rating is about 1100 (can go upto 1200 on good days and drop to 900 on bad ones). I really want to improve and get to at least 2000! </p>
+</div>
+</section>
+<section id="contact">
+<h1> Contact </h1>
+<h2> Github: rgbhsl </h2>
+</section>
+
+
 </body>
 </html>
