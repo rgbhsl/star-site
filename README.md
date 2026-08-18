@@ -6,8 +6,7 @@ A personal website for the Stardance Challenge 2026, made with HTML and CSS.
 
 # Features
 - 4 sections
-- Multiple fonts
-- Embedded image
+- Multiple fonts, embedded image, rounded borders
 - Simple CSS formatting
 
 # Decisions
