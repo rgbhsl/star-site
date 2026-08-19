@@ -2,7 +2,7 @@
 A personal website for the Stardance Challenge 2026, made with HTML and CSS.
 ![Screenshot of the first section from the website](image.png)
 
-# Take a look at the rest:
+# Take a look at the rest: https://rgbhsl.github.io/starsite/
 
 # Features
 - 4 sections
